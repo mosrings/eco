@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>checkout</title>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
+    <!-- <script type="text/javascript" src="http://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js"></script> -->
+  </head>
+  <body>
+
+  	<div id="header">
+      <span class="before"></span>
+      <a href="index.html"><span id="logo">Geodata API</span></a>
+      <span id="login-form">
+        <input type="text" value="логин"/>
+        <input type="password" value="пароль"/>
+        <a href="admin.html">
+          <input type="button" value="войти"/>
+        </a>
+      </span>
+    </div>
+
+    <div id="table">
+      <table id="tb">
+        <tr class="small">
+          <td id="left">
+            <b>Вы выбрали подписку на:</b>
+          </td>
+          <td id="right">
+            <br>
+            <i>Экологические данные</i>
+              <br>
+              <a href="mailto:sovzond@sovzond.ru"><input type="button" value="Запросить счет"></input></a>
+          </td>
+        </tr>
+        <tr class="small">
+          <td id="left">
+            <br>
+            <i>Добавить в корзину</i>
+          </td>
+          <td id="right">
+            <br>
+            <select>
+              <option>Траснспортная доступность</option>
+              <option>Аналитика цен</option>
+            </select>
+            <input type="button" value="Добавить"></input>
+
+        </td>
+        </tr>
+      </table>
+    </div>
+
+  	<!-- <script type="text/javascript" src="js/demo.js"></script> -->
+  </body>
+</html>
