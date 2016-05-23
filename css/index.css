@@ -1,0 +1,40 @@
+.big {
+  margin: auto;
+  background-color: #F3F3F3;
+  font-size: 30px;
+  border: solid 10px;
+  border-color: #F3F3F3;
+}
+#table {
+  display: block;
+  margin-top: 5%;
+  align-self: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: arial
+}
+#tb {
+margin: auto;
+width: 700px;
+}
+td {
+  margin: auto;
+  text-align: center;
+}
+#annotation {
+  text-align: justify;
+}
+.price {
+  font-size: 50px;
+  text-align: center;
+  /*font-weight: bold;*/
+}
+.priceholder {
+  text-align: center;
+  border: solid 4px;
+  border-color: #FFF;
+}
+.price-description {
+  font-size: 18px;
+}
