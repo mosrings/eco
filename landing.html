@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Geodata APT</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/landing.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+    <script type="text/javascript" src="http://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js"></script>
+  </head>
+  <body>
+
+  	<div id="header">
+      <span class="before"></span>
+      <a href="index.html"><span id="logo">Geodata API</span></a>
+      <span class="before"></span>
+      <span id="login-form">
+        <input type="text" value="логин"/>
+        <input type="password" value="пароль"/>
+        <a href="admin.html">
+          <input type="button" value="войти"/>
+        </a>
+      </span>
+    </div>
+
+    <div id="container">
+      <div class="main">
+        <span id="title">Экологическая карта Москвы</span>
+        <table id="table">
+            <tr>
+              <td>
+                <br>
+                Что это?
+              </td>
+              <td>
+                <br>
+                Для кого?
+              </td>
+              <td>
+                <br>
+                Как пользоваться?
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <br>
+                Экологическая обстановка является важнейшим вопросом, волнующим жителей Москвы.
+                В сознании горожан глубоко укоренились представления о "чистых" и "грязных" районах.
+                <br>
+                <br>
+                Однако на самом деле гораздо сильнее на экологию дома влияет его местоположение
+                внутри квартала, чем сам район. Как же правильно оценить степень экологической опасности?
+                <br>
+                <br>
+                Представляем унивальный набор географических данных -
+                показатель качества экологии в каждом доме Москвы и Подмосковья.
+              </td>
+              <td>
+                <br>
+                Поисковые сервисы недвижимости развиваются и постепенно обрастают информацией о квартирах, домах и районах.
+                <br>
+                Однако экология - один из важнейших вопросов - остается за рамками этой информации.
+                <br>
+                <br>
+                Мы предлагаем доступ по API к базе данных экологических индексов для каждого дома в Москве.
+              </td>
+              <td>
+                <br>
+                <a href=#map>Попробуйте демо-приложение, чтобы увидеть, как работают данные!</a>
+              </td>
+            </tr>
+        </table>
+      </div>
+    </div>
+
+    <div id="map-container">
+      <div id="map">
+      </div>
+        <div id="content">
+          <span class="top-header">
+            Экологические данные
+            <hr>
+          </span>
+          <span class="secondary-header">
+              <span id="value">Выберите точку</span>
+            </br>
+            </span>
+          <hr>
+          <span class="secondary-header">
+            <br>
+            <br>
+            В районе метро "Щелковская": <b>6,8</b>
+            <br>
+            <span id="percent-metro"/></span>
+            <br>
+            <br>
+            В районе Северное Измайлово: <b>7,2</b>
+            <br>
+            <span id="percent-district"></span>
+            <br>
+            <br>
+            В Восточном округе: <b>6,5</b>
+            <br>
+            <span id="percent-okrug"/></span>
+          </span>
+        </div>
+      </div>
+            <div id="right">
+              <br>
+              <br>
+              Оплатите доступ к данным и встройте их на Ваш сайт
+              <br>
+              <span class="price">
+                300
+              </span>
+              <spsn class="price-description"><br>
+                рублей в месяц
+                <br>
+              </span>
+              <br>
+              <a href="checkout.html">
+                <input type="button" value="заказать"/>
+              </a>
+            </div>
+    	<script type="text/javascript" src="js/izmaylovo.js"></script>
+    	<script type="text/javascript" src="js/demo.js"></script>
+    </body>
+  </html>
