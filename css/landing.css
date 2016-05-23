@@ -33,7 +33,7 @@ body {
   margin: 0;
   width: 100%;
   height: 45%;
-  background: url(grass.png) no-repeat;
+  background: url(https://s3.eu-central-1.amazonaws.com/osmborders/Russia/grass.png?X-Amz-Date=20160523T170839Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=3a0aec892971a3e5c1d7e003366c25ef955a39188e8d275004350055d4227211&X-Amz-Credential=ASIAJQ2IVHF6GIAROOPQ/20160523/eu-central-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEEoaDIjejkB9NnykZZlKKiLHAT8pbbe9zwkCe0MYGLUtkChvpJk9S%2BeuEZjyPyjnqOb6FcitCQBUMO0VsPNeKb7LiX07Jxidj2TKhe8swyrCSxkN6kx51CjMHLHD8oDE46kYe0F8A0Y0wWAeIiwVs9wFa5VEUL2qdidDpT8iUwIIVX2vTEIwkWCqshpSpAK1z/Ik5ZnFQbcDWPZfJpe4jOJTYne71rQ5LSM%2BgQ84bbjCgBFHDQSA79bLmTWkcgDBNDOc6dY4/SE/I6CS6nt%2BLzG9dyOrBByKvLgox/GMugU%3D) no-repeat;
   background: linear-gradient(to right);
   background-position: bottom;
   /*background-size: 100%;*/
